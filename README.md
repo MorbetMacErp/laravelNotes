@@ -23,6 +23,15 @@ Windows:
 vendor\\bin\\homestead make
 ```
 
+myslq database connection in .env and config/database.php needs set like:
+
+```config
+host: 127.0.0.1
+port: 3306__0__ //note the last 0
+username: homestead
+password: secret
+```
+
 * Within the parent of the directory you want to work on the source code for the project, checkout the initial codebase already put up on github `git clone git@github.com:MorbetMacErp/shiftBooker` or if I haven't done it yet run `laravel new shiftbooker`, and then get it into git by creat a new repo at github and then follow these commands within the local project folder created by `laravel new`
 
 ```bash
