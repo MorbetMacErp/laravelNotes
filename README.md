@@ -12,7 +12,15 @@
 * the laravel pre-packaged dev server VM, `require` the laravel/homestead repo into the root project directory, it's a pre-packaged vagrant box that'll use the vagrant box added previously as a base box. Commands like `vagrant up` `vagrant ssh` and `vagrant destroy` will now be available within the project directory.
 
 ```bash
+# require laravel
 composer require laravel/homestead --dev
+
+# generate the vagrantfile and homestead.yaml
+Mac / Linux:
+php vendor/bin/homestead make
+
+Windows:
+vendor\\bin\\homestead make
 ```
 
 * Within the parent of the directory you want to work on the source code for the project, checkout the initial codebase already put up on github `git clone git@github.com:MorbetMacErp/shiftBooker` or if I haven't done it yet run `laravel new shiftbooker`, and then get it into git by creat a new repo at github and then follow these commands within the local project folder created by `laravel new`
