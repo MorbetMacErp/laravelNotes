@@ -42,7 +42,7 @@ Mac / Linux:
 php vendor/bin/homestead make
 
 Windows:
-vendor\\bin\\homestead make
+vendor\bin\homestead make
 ```
 
 * update the hosts file with an entry matching the ip and domain set in the homestead.yaml file
