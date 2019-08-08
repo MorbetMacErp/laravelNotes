@@ -51,10 +51,9 @@ vendor\\bin\\homestead make
 * Change the .env and the ./config/database.php connection username and passwords to:
 
 ```bash
-## note the last 0 only if you're using the host terminal from here on
+## note the last 0 only if you're using the HOST terminal from here on for migrations etc.
 host: 127.0.0.1
 port: 3306__0__
-for migrations etc.
 username: homestead
 password: secret
 ```
