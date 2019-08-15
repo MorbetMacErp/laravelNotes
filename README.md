@@ -76,5 +76,5 @@ git push -u origin master
 
 ## Extras
 
-* A nice bash shell makes the world of difference if you're using the host terminal, try ZSH with oh-my-zsh. Enable [WSL on Win 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10), then use apt-get for zsh `sudo apt-get install zsh`. Google how to make it the default terminal. Then [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)...this is all untested though as I don't have access to Win10 at the moment.
+* A nice bash shell makes the world of difference if you're using the host terminal, try ZSH with oh-my-zsh. Enable [WSL on Win 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10), then use apt-get for zsh `sudo apt-get install zsh`. Google how to make it the default terminal. Then [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)...this is all untested though as I don't have access to Win10 at the moment. If the best option is still an emulator, try [cmder](https://cmder.net/).
 * Decent text editor for code, [VSCode](https://code.visualstudio.com/Download) (_my own Preffered_), [Atom](https://flight-manual.atom.io/getting-started/sections/installing-atom/), [Sublime](https://www.sublimetext.com/3) are three of the best right now.
