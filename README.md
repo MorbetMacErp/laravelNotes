@@ -2,7 +2,7 @@
 
 ## And supporting software setup
 
-* PHP clearly...<https://www.php.net/downloads.php>
+* PHP...<https://www.php.net/downloads.php>
   * This involves installing the MS Visual C++ redistributable (link on th php downloads page)
   * Then unzip the php downloaded binaries to a preferred location (`C:\php7` keeps it easy)
   * Appen the unzipped folder location to the system PATH variable
