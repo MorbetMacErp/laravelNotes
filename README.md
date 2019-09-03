@@ -55,7 +55,7 @@
 ```bash
 ## note the last 0 only if you're using the HOST terminal from here on for migrations etc.
 host: 127.0.0.1
-port: 3306__0__
+port: 33060
 username: homestead
 password: secret
 ```
