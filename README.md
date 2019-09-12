@@ -17,7 +17,7 @@
   >ftype phpfile="C:\php7\php.exe" -f "%1" -- %~2
   ```
 
-  * Also, check that  the C:\php7\php.ini and uncomment out the line `extension=fileinfo` if it isn't already
+  * Also, check the C:\php7\php.ini and uncomment the line `extension=fileinfo` if it isn't already
 
 * PHP package manager composer used once for the Laravel installer, but will probably be used again. For Windows get the composer installer here <https://getcomposer.org/doc/00-intro.md>
 * install the laravel installer using the composer package manager, in a terminal run `>composer global require laravel/installer`
